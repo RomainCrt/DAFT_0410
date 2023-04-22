@@ -1,4 +1,4 @@
-/*    Lab_20_SQL-Business-Cases   */
+/*    Lab_20_SQL-Business-Cases create  */
 
 CREATE DATABASE IF NOT EXISTS `lab21cars`;
 use lab21cars;
@@ -22,7 +22,7 @@ CREATE TABLE customers (
   name VARCHAR(20) NOT NULL,
   phone VARCHAR(20),
   email VARCHAR(20),
-  adress VARCHAR(20),
+  adress VARCHAR(200),
   city VARCHAR(50),
   state VARCHAR(20),
   postal VARCHAR(10),
@@ -40,6 +40,9 @@ DROP TABLE IF EXISTS invoices;
 CREATE TABLE invoices (
 	id INT NOT NULL AUTO_INCREMENT,
 	invoices_number DOUBLE NOT NULL,
+    id_car  INT NOT NULL,
+    id_customer INT NOT NULL,
+    id_salesperson INT NOT NULL,
 	date DATETIME,
     PRIMARY KEY (id),
     CONSTRAINT id_car
