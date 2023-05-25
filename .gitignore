@@ -10028,3 +10028,10 @@ module_2/Project_Week_6/audio_features_sav2.csv
 module_2/Project_Week_6/audio_features_short.csv
 module_2/Project_Week_6/audio_features.csv
 module_2/Project_Week_6/spotify_2.ipynb
+FinalProject/Original_Data/donnees-synop-essentielles-omm_head.csv
+FinalProject/Original_Data/donnees-synop-essentielles-omm.csv
+FinalProject/Original_Data/healthref-france-sentinelles-weekly.csv
+.gitignore
+FinalProject/Original_Data/parametres-inclus-dans-les-fichiers-de-donnees-synop_283.pdf
+FinalProject/Original_Data/wmo_306-v1_1-2012_fr.pdf
+FinalProject/Original_Data/FR_E2_2021-01-01.csv
